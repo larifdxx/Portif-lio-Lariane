@@ -1,0 +1,106 @@
+body  {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f2e9; /* Cor de fundo */
+    color: #10324c; /* Cor do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+header {
+    text-align: center; /* Centraliza o texto */
+    padding: 0px; /* Preenchimento interno */
+    background-color: #f4f2e9 /* Cor de fundo do cabeçalho */
+    
+}
+
+
+main {
+    padding: 20px; /* Preenchimento interno do main */
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Alinha itens verticalmente em telas menores */
+    }
+
+    section {
+        padding: 10px; /* Ajusta o preenchimento em telas menores */
+    }
+}
+
+img {
+    max-width: 100%; /* A imagem se ajusta ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+
+
+figure {
+    text-align: center; /* Centraliza a imagem e a legenda */
+    margin: 20px; /* Espaçamento em torno da figura */
+}
+
+
+
+/* Estilização do menu de navegação */
+.navbar {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    background-color: #f4f2e9; /* Cor de fundo do menu */
+    padding: 10px; /* Espaçamento ao redor do menu */
+}
+
+.navbar ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Coloca os itens da lista em uma linha */
+}
+
+.navbar li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+.navbar a {
+    color: #2572b5; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s; /* Animação de transição ao passar o mouse */
+}
+
+.navbar a:hover {
+    color: #ddd; /* Muda a cor ao passar o mouse */
+}
+
+
+.center {
+    text-align: center;
+ }
+
+ .figuras { 
+    display: flex;
+    gap: 10px;
+}
+
+ .figuras-alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    width: 100px;
+}
+
+.figuras-posicao
+{ 
+    width: 100%;
+    height: auto;
+
+}
+
+img {
+    border: none; /* Remove bordas */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+}
